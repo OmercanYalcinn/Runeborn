@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 
-public class MainMenuControllerr : MonoBehaviour
+public class MainMenuManagement : MonoBehaviour
 {
-    [SerializeField] private GameObject loadingScreen; // Panel
-    [SerializeField] private Image fadeImage; // Fade için siyah image
+    [SerializeField] private GameObject loadingScreen;
+    [SerializeField] private Image fadeImage;
     [SerializeField] private string sceneToLoad = "CityScene";
     [SerializeField] private float fadeDuration = 1f;
 
@@ -39,4 +39,3 @@ public class MainMenuControllerr : MonoBehaviour
         }
     }
 }
-
